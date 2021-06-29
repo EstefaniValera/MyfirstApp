@@ -44,6 +44,7 @@ namespace MyFirstApp.ForeachLoop
             this.btnSave.TabIndex = 0;
             this.btnSave.Text = "button1";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtStudentId
             // 
