@@ -33,8 +33,9 @@ namespace MyFirstApp.ForeachLoop
             {
                 //unboxing-polymorphism
                 //calcular cuantos estudicantes hay
-                MessageBox.Show( ((Student)_student).Name + " "+((Student)_student).Surname); 
+                MessageBox.Show( ((Student)_student).Name + " "+((Student)_student).Surname);
                 // el arralyist utiliza objetos; dentro del objeto estamos poniendo un estudiante-boxing 
+                Console.WriteLine("todos los examenes hacerlo ordenada");
             }
         }
     }
