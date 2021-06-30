@@ -38,5 +38,10 @@ namespace MyFirstApp.ForeachLoop
                 Console.WriteLine("todos los examenes hacerlo ordenada");
             }
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
