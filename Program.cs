@@ -1,4 +1,5 @@
 ﻿using MyFirstApp.ForeachLoop;
+using MyFirstApp.WhileLoop;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace MyFirstApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new rmForEach()); // un form es una clase , hacer el using ; arrancar la apilcacion con este nuevo formuario
+            Application.Run(new WhileLoop.frmWhile()); // un form es una clase , hacer el using ; arrancar la apilcacion con este nuevo formuario
 
         }
     }
